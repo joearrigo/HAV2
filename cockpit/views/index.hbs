@@ -1,0 +1,83 @@
+<div id="fixedBar">
+<ul>
+<!-- Left goes here. Outermost to innermost-->
+  <li class="lefty">
+    <form action="">
+      <button class="fakebutton"></button> 
+    </form>
+  </li>
+
+  <li class="lefty">
+    <h1>{{ title }}</h1>
+  </li>
+
+  <li class="lefty">
+    <form action="">
+      <button class="fakebutton"></button> 
+    </form>
+  </li>
+
+  <li class="lefty">
+    <form action="">
+      <button onclick="chooseButo('control');">Control</button> 
+    </form>
+  </li>
+
+  <li class="lefty">
+    <form action="">
+      <button onclick="chooseButo('search');">Search</button>
+    </form>
+  </li>
+
+  <li class="lefty">
+    <form action="">
+      <button onclick="chooseButo('connect')">Connect</button>
+    </form>
+  </li>
+
+  <li class="lefty">
+    <form action="">
+      <button class="fakebutton"></button> 
+    </form>
+  </li>
+
+  <li class="lefty">
+    <form action="">
+      <button onclick="chooseButo('camera')">Enable Camera</button>
+    </form>
+  </li>
+
+<!-- Right goes here. Outermost to innermost-->
+  <li class="righty">
+    <form action="">
+      <button class="fakebutton"></button> 
+    </form>
+  </li>
+
+  <li id = "dobby" class="righty">
+    <p>N/A</p>
+  </li>
+
+  <li id = "commm" class="righty">
+    <p>N/A</p>
+  </li>
+  
+
+</ul>
+</div>
+
+<div id="spacetakerupper">
+</div>
+
+<p id="gamepad-info"></p>
+
+</br>
+
+<p id="th"></p>
+<p id="tv"></p>
+
+<p id="messageZone"></p>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/javascripts/jquery-1.11.1.js"></script>
+<script src="/javascripts/gamepad.js"></script>
